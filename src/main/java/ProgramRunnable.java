@@ -5,10 +5,10 @@ public class ProgramRunnable {
     }
 }
 
-    class NumberPrinter implements Runnable {
+    class NumbPrinter implements Runnable {
         private final int start;
 
-        public NumberPrinter(int start) {
+        public NumbPrinter(int start) {
             this.start = start;
         }
 
